@@ -1,0 +1,1 @@
+CC="aarch64-linux-gnu-gcc" CXX="aarch64-linux-gnu-g++" CGO_ENABLED=1 GOOS="linux" GOARCH="arm64" go build  main.go
